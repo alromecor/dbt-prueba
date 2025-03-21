@@ -49,3 +49,4 @@ models:
       - name: supply_id
         tests:
           - not_null
+          - unique

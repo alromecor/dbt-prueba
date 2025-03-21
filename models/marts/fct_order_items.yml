@@ -10,6 +10,8 @@ models:
         data_type: string
         constraints:
           - type: not_null
+        tests:
+          - unique
       - name: order_id
         data_type: string
         constraints:
