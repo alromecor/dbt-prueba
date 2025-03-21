@@ -9,7 +9,7 @@ order_items as (
 joined as (
     select 
         order_items.*,
-        orders.* exclude (order_id)
+        orders.* except (order_id)
         
     from orders 
         inner join order_items 
