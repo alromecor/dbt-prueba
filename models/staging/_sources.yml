@@ -1,6 +1,6 @@
 sources:
   - name: jaffle_shop
-    database: raw
+    database: nomadic-vehicle-454309-j2
     schema: jaffle_shop
     description: E-commerce data
     tables:
