@@ -24,13 +24,13 @@ models:
       - name: product_description
         data_type: string
       - name: product_price
-        data_type: number
+        data_type: INT64
         constraints:
           - type: not_null
       - name: is_food_item
         data_type: boolean
       - name: supply_cost
-        data_type: number
+        data_type: INT64
       - name: is_drink_item
         data_type: boolean
       - name: product_id
