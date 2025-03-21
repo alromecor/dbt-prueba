@@ -21,9 +21,9 @@ models:
       - name: customer_id
         data_type: string
       - name: order_total
-        data_type: INT64
+        data_type: FLOAT64
       - name: tax_paid
-        data_type: INT64
+        data_type: FLOAT64
       - name: ordered_at
         data_type: TIMESTAMP
       - name: customer_name
@@ -36,6 +36,6 @@ models:
                 - "Brooklyn"
                 - "Philadelphia"
       - name: tax_rate
-        data_type: INT64
+        data_type: FLOAT64         
       - name: location_opened_at
         data_type: TIMESTAMP
